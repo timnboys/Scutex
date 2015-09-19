@@ -4,6 +4,8 @@ Scutex, pronounced (sec-u-techs), is a 100% managed .Net Framework licensing pla
 
 Using Scutex you can create trial versions of your software products and allow your users to buy and use license keys or keyfiles to unlock your product. You can also have edition based licensing to unlock only select features based on the level of the license. Scutex supports upgrade licenses as well as allowing your customers who have an existing version of your product to upgrade to a new version.
 
+This fork is trying to continue to build upon where wavetech left off(and hopefully make it into the full potentional this licensing system has)
+
 ## Features
 
 	* Multiple License Keys
@@ -16,16 +18,8 @@ Using Scutex you can create trial versions of your software products and allow y
 
 ## License
 
-Licensed under the Microsoft Public License (MS-PL)
+This software will be licensed by our License included with Weather4U(one of our other software)
 
-## Resources
-
-* **WaveTech's Home page:** <http://www.wtdt.com>
-* **Scutex's Home Page:** <http://www.wtdt.com/Products/Scutex.aspx>
-* **CodePlex:** <http://scutex.codeplex.com/>
-* **Issue Tracker:** <http://scutex.codeplex.com/workitem/list/basic>
-* **Forum:** <http://scutex.codeplex.com/discussions>
-* **Discussion list:** <http://groups.google.com/group/scutex-dev>
 
 ## Infragistics Components
 
@@ -33,16 +27,16 @@ As of the 10/30/2011 checkin the Infragistics dependancy has been removed.
 
 ## Official Builds & Releases
 
-There are a number of additional processes that occur for preparing Scutex to be used in your applications. Because of that there are two places to obtain official builds that you should install and use in your products. To obtain official builds just got to the Scutex homepage at http://www.wtdt.com/Products/Scutex.aspx and click on the Downloads link or go to the CodePlex site http://scutex.codeplex.com/ and download the latest release build there. Official release builds will be a big bold download link and you can get access to development builds from our CI server.
+Will be released here or our website http://keyedinsoftware.org
 
 ## Prerequisites
 
 You will need the .Net Framework 4 and SQL Server or SQL Express to use Scutex. To develop Scutex you will need the following installed.
 
-	* Visual Studio 2010 (WPF/MSTest)
+	* Visual Studio 2010 Or better this will be developed in 2013 or possibly 2015. (WPF/MSTest)
 	* SQL Server 2005/2008/2008 R2 or SQL Express 2005/2008 R2
 	* Microsoft MOLES & Pex Power Tools <http://research.microsoft.com/en-us/projects/pex/>
-	* Infragistics WPF v10.3 (Temporary)
+	~~* Infragistics WPF v10.3 (Temporary)~~
 	* IIS, IIS Express or Casini for testing Services
 
 ## Unit Testing
