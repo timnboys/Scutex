@@ -141,7 +141,9 @@
     </Reference>
     <Reference Include="PresentationFramework.Classic" />
     <Reference Include="PresentationFramework.Luna" />
-    <Reference Include="StructureMap, Version=2.6.1.1, Culture=neutral, PublicKeyToken=d9e244627cc0a396, processorArchitecture=MSIL" />
+    <Reference Include="StructureMap">
+      <HintPath>..\..\References\StructureMap\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -169,6 +171,7 @@
       <Link>AssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Gui\ChangeToColorConverter.cs" />
     <Compile Include="Gui\Controls\MaskedTextBox.cs" />
     <Compile Include="Gui\GuiRoot.cs" />
@@ -208,6 +211,11 @@
     <EmbeddedResource Include="..\..\Other\Scutex.Licensing-Pub-KeyFile.snk">
       <Link>Scutex.Licensing-Pub-KeyFile.snk</Link>
     </EmbeddedResource>
+    <AdditionalFiles Include="..\..\Other\ScutexModeling\LayerDiagram1.layerdiagram">
+      <Link>LayerDiagram1.layerdiagram</Link>
+      <Visible>False</Visible>
+    </AdditionalFiles>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Gui\Resources\Strings.resx">
@@ -339,6 +347,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ScutexNewIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\packages\Microsoft.DependencyValidation.Analyzers.0.9.0\analyzers\dotnet\cs\Microsoft.DependencyValidation.Analyzers.resources.dll" />
+    <Analyzer Include="..\..\packages\Microsoft.DependencyValidation.Analyzers.0.9.0\analyzers\dotnet\Microsoft.DependencyValidation.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
