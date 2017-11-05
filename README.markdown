@@ -51,7 +51,7 @@ You will need the .Net Framework 4 and SQL Server or SQL Express to use Scutex. 
 
 I moved the unit tests from NUnit to MSTest to get integrated MOLES support, and to play around with Pex a little. Unfortunately the way MSTest plays and moves things around it makes getting the paths for required files a major issue. The ReSharper Unit Test Runner does not have that issue, and still runes the MOLES tests. If you run the unit tests from within Visual Studio using MSTest all the test dependent on location will fail. Additionally the performance of the unit tests went downhill due to how MSTest wires things up. Eventually I'll get back in there are refactor the Setup and Teardowns so that they work with MSTest.
 
-Unit Testing is kinda ignored anyway since it is mostly not used anymore anyway(just a personal preference...you are free to use unit testing if you want to but I will not.)
+**Unit Testing is kinda ignored anyway since it is mostly not used anymore anyway(just a personal preference...you are free to use unit testing if you want to but I will not.)**
 
 ## Supported License Key Types
 
