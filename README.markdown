@@ -23,7 +23,8 @@ This software will be licensed by our License included with Weather4U(one of our
 
 ## Infragistics Components
 
-As of the 10/30/2011 checkin the Infragistics dependancy has been removed.
+~~As of the 10/30/2011 checkin the Infragistics dependancy has been removed.~~
+Infragistics is irrevelant at this point since it isn't even used anymore.
 
 ## Official Builds & Releases
 
@@ -33,9 +34,9 @@ Will be released here or our website http://keyedinsoftware.org
 
 You will need the .Net Framework 4 and SQL Server or SQL Express to use Scutex. To develop Scutex you will need the following installed.
 
-	* Visual Studio 2010 Or better this will be developed in 2013 or possibly 2015. (WPF/MSTest)
-	* SQL Server 2005/2008/2008 R2 or SQL Express 2005/2008 R2
-	* Microsoft MOLES & Pex Power Tools <http://research.microsoft.com/en-us/projects/pex/>
+	* Visual Studio 2017 Or better this will be developed in 2017 starting since 11/4/17 (WPF/MSTest)
+	* ~~SQL Server 2005/2008/2008 R2 or SQL Express 2005/2008 R2~~ recommended latest MS SQL Server Version Available
+	* ~~Microsoft MOLES & Pex Power Tools <http://research.microsoft.com/en-us/projects/pex/>~~ Replaced by Intellitest since Pex/Moles was superceded by Intellitest according to Microsoft.
 	* IIS, IIS Express or Casini for testing Services
 
 ## Unit Testing
