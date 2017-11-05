@@ -30,15 +30,15 @@ Infragistics is irrevelant at this point since it isn't even used anymore.
 
 Will be released here or our website http://keyedinsoftware.org
 
-## Prerequisites - OLD
+## Prerequisites - OLD - Left for Historical Reasons only
 You will need the .Net Framework 4 and SQL Server or SQL Express to use Scutex. To develop Scutex you will need the following installed.
 
-~~\	* Visual Studio 2017 Or better this will be developed in 2017 starting since 11/4/17 (WPF/MSTest)
+	* Visual Studio 2017 Or better this will be developed in 2017 starting since 11/4/17 (WPF/MSTest)
 	* SQL Server 2005/2008/2008 R2 or SQL Express 2005/2008 R2 recommended latest MS SQL Server Version Available
 	* Microsoft MOLES & Pex Power Tools <http://research.microsoft.com/en-us/projects/pex/> Replaced by Intellitest since Pex/Moles was superceded by Intellitest according to Microsoft.
-	* IIS, IIS Express or Casini for testing Services\~~
+	* IIS, IIS Express or Casini for testing Services
 	
-## Prequisites
+## Prequisites - Current
 
 You will need the .Net Framework 4 and SQL Server or SQL Express to use Scutex. To develop Scutex you will need the following installed.
 
