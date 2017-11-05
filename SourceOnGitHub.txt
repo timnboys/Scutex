@@ -1,2 +1,2 @@
 The source code for this project is hosted and managed on GitHub. 
-visit our GitHub page (https://github.com/wavetech) for all of our public repos.
+visit our GitHub page (https://github.com/timnboys/Scutex) for the Scutex Github Repo.
