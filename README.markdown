@@ -19,7 +19,7 @@ This fork is trying to continue to build upon where wavetech left off(and hopefu
 ## License
 
 This software will be licensed by our License included with Weather4U(one of our other software)
-[license](license.md)
+[license](LICENSE)
 
 ## Infragistics Components
 
